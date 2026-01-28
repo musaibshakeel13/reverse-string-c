@@ -9,10 +9,7 @@ void display(int arr[],int size){
 void deletion(int arr[],int size,int index){
     for(int i=index;i<size-1;i++){
         arr[i]= arr[i+1];
-
     }    
-        
-  
 }
 int main(){
     int arr[100];
@@ -25,7 +22,6 @@ int main(){
     }
     printf("Enter the index where you wantt to delete a Element: ");
     scanf("%d",&index);
-
     // int arr[100]={7,8,12,27,88};
     // int size=5,index=2;
     printf("Before deletion\n");
